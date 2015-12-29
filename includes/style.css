@@ -2,15 +2,89 @@
     padding: 0px;
     margin: 0px;
 }
-
-main, section, header, footer,nav {
+main, section, header, footer,nav,article {
     display: block;
 }
 #wrapper {
 	margin: 0px auto;
-	width: 90%;
+	width: 100%;
 }
 .clear {
 	clear:both;
 }
+body {
+	width: 390px;
+	height: 638px;
+}
+main {
+	background: #cbe8ba;
+}
+header {
+	background: #82b1ce;
+}
+#sLogo {
+	display: block;
+	background: url("../images/slogo.png");
+	width:140px;
+	height: 100px;
+}
+.openingText {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.openingText h3,h2 {
+	text-align: center;
+} 
+hr {
+	width:320px;
+	margin:0px auto;
+	border:2px dotted;
+
+}
+section #buttonCenter {
+	margin-top:35px;
+	margin-bottom: 44px;
+	margin-left: 117px;
+}
+.workersEnter {
+	background: #82b1ce;
+	border-radius: 20px;
+	margin-left: 33px;
+	width:312px;
+	height: 50px;
+	margin-top: 33px;
+}
+
+nav {
+	background: black;
+}
+
+
+nav .navigateIcon {
+	list-style: none;
+} 
+.homeB {
+	background: url("../images/navImg/homeB.png");
+	display: block;
+	width:50px;
+	height:50px;
+}
+}
+.userB {
+	background: url("../images/navImg/userB.png");
+	display: block;
+}
+.trackingB {
+	background: url("../images/navImg/trackingB.png");
+	float: left;
+}
+ 
+
+
+
+
+
+
+
+
 
