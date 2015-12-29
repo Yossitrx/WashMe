@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main, section, header, footer,nav {
+    display: block;
+}
+#wrapper {
+	margin: 0px auto;
+	width: 90%;
+}
+.clear {
+	clear:both;
+}
+
